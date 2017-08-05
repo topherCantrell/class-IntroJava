@@ -92,6 +92,8 @@ public class Maze {
 		frame.pack();
 		frame.setVisible(true);
 		
+		//frame.setAlwaysOnTop(true);
+		
 	}
 	
 	/**
