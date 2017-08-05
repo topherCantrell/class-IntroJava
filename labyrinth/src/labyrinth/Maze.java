@@ -77,12 +77,25 @@ public class Maze {
 	}
 	
 	/**
-	 * This method opens a graphical view of the maze in a separate window.
+	 * This method returns the top level frame of the showing application
+	 * or null if there isn't one showing.
+	 * @return the parent frame or null
 	 */
-	public void showMaze() {
+	public JFrame getJFrame() {
+		if(drawer==null) {
+			return null;
+		}
+		return (JFrame) drawer.getParent();
+	}
+	
+	/**
+	 * This method opens a graphical view of the maze in a separate window.
+	 * @return 
+	 */
+	public JFrame showMaze() {
 		
 		// Just one
-		if(drawer!=null) return;
+		if(drawer!=null) return null;
 		
 		JFrame frame = new JFrame("Labyrinth");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -93,6 +106,9 @@ public class Maze {
 		frame.setVisible(true);
 		
 		//frame.setAlwaysOnTop(true);
+		drawer.getParent();
+		
+		return frame;
 		
 	}
 	
@@ -304,7 +320,8 @@ public class Maze {
 		
 		Maze maze = new Maze();
 		maze.initialize();
-		maze.showMaze();
+		JFrame jf = maze.showMaze();
+		jf.setAlwaysOnTop(true);	
 		
 		while(true) {
 			
