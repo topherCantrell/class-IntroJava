@@ -320,8 +320,8 @@ public class Maze {
 		
 		Maze maze = new Maze();
 		maze.initialize();
-		JFrame jf = maze.showMaze();
-		jf.setAlwaysOnTop(true);	
+		/*JFrame jf = */maze.showMaze();
+		//jf.setAlwaysOnTop(true);	
 		
 		while(true) {
 			
