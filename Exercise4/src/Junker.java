@@ -1,6 +1,8 @@
 import java.util.Random;
 
-public class Junker extends ChevyVega {
+import vehicles.Vega;
+
+public class Junker extends Vega {
     
     int tries;
     
