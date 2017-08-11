@@ -1,3 +1,4 @@
+package vehicles;
 import java.util.Random;
 
 public class Vega implements Vehicle {
