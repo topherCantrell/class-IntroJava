@@ -1,25 +1,35 @@
 import vehicles.Vehicle;
 
-public class Debug implements Vehicle {
+public class DebugVehicle implements Vehicle {
     
-    private boolean dirty;
-    private boolean started;
-    private int location;
+    Vehicle target;
+    
+    // Simple decorator for debugging the Vehicle interface. Use it like this:
+    // Vehicle v = new Debug(new Vega()); // Or whatever vehicle you want on the inside.
+    
+    // This is NOT part of the exercise, but it is helpful and interesting!
+    
+    public DebugVehicle(Vehicle v) {
+    	target = v;
+    }
 
     @Override
     public boolean isDirty() {
+    	boolean dirty = target.isDirty();
         System.out.println("Called 'isDirty'. Returning '"+dirty+"'");
         return dirty;
     }
 
     @Override
     public boolean isStarted() {
+    	boolean started = target.isStarted();
         System.out.println("Called 'isStarted'. Returning '"+started+"'");
         return started;
     }
 
     @Override
     public int getLocation() {
+    	int location = target.getLocation();
         System.out.println("Called 'getLocation'. Returning '"+location+"'");
         return location;
     }
@@ -27,37 +37,25 @@ public class Debug implements Vehicle {
     @Override
     public void setDirty(boolean dirt) {
         System.out.println("Called 'setDirty("+dirt+")'.");
-        dirty = dirt;        
+        target.setDirty(dirt);        
     }
 
     @Override
     public void start() {
         System.out.println("Called 'start()'.");   
-        started = true;
+        target.start();
     }
     
     @Override
     public void stop() {
         System.out.println("Called 'stop()'.");
-        started = false;
+        target.stop();
     }
 
     @Override
     public void moveTo(int location) {
         System.out.println("Called 'moveTo("+location+")'.");
-        this.location = location;
-    }
-    
-    public static void main(String [] args) {
-        
-        Vehicle v = new Debug();
-        v.start();
-        System.out.println(v.isStarted());
-        v.moveTo(100);
-        System.out.println(v.getLocation());
-        v.stop();
-        System.out.println(v.isStarted());
-        
+        target.moveTo(location);
     }
 
 }

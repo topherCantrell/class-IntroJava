@@ -10,22 +10,17 @@ public class Car implements Vehicle {
     public boolean isDirty() {
         return dirty;
     }
-
-    @Override
-    public boolean isStarted() {
-        return started;
-    }
-
-    @Override
-    public int getLocation() {
-        return location;
-    }
-
+    
     @Override
     public void setDirty(boolean dirt) {
         dirty = dirt;        
     }
 
+    @Override
+    public boolean isStarted() {
+        return started;
+    }
+    
     @Override
     public void start() {
         started = true;
@@ -37,8 +32,13 @@ public class Car implements Vehicle {
     }
 
     @Override
+    public int getLocation() {
+        return location;
+    }
+
+    @Override
     public void moveTo(int location) {
-        if(isStarted()) {
+        if(isStarted()) { // Added this ... make sure the car is started
             this.location = location;
         }
     }
