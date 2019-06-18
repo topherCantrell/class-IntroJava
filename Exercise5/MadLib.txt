@@ -2,25 +2,25 @@ From the "Best of Mad Libs" by Roger Price and Leonard Stern
 
 LITTLE RED RIDING HOOD
 
-One day, Little _color_ Riding Hood was going through the forest carrying a
-basket of _plural noun_ for her grandmother. Suddenly, she met a big _adjective_
+One day, Little {color} Riding Hood was going through the forest carrying a
+basket of {plural noun} for her grandmother. Suddenly, she met a big {adjective}
 wolf. 
 
-"_exclamation_!" said the wolf. "Where are you going, little _silly word_?"
+"{exclamation}!" said the wolf. "Where are you going, little {silly word}?"
 
 "I'm going to my grandmother's house," she said. 
 
-Then the wolf _verb (past tense)_ away. When Miss Riding Hood got to her 
+Then the wolf {verb (past tense)} away. When Miss Riding Hood got to her 
 grandmother's house, the wolf was in bed dressed like her grandmother. 
 
-"My, Grandmother," she said. "What big _plural noun 1_ you have." 
+"My, Grandmother," she said. "What big {plural noun 1} you have." 
 
-"The better to _verb 1_ you with," said the wolf. 
+"The better to {verb 1} you with," said the wolf. 
 
-"And, Grandmother," she said, "what big _plural noun 2_ you have." 
+"And, Grandmother," she said, "what big {plural noun 2} you have." 
 
-The wolf said, "The better to _verb 2_ you with." 
+The wolf said, "The better to {verb 2} you with." 
 
-And then she said, "What big _plural noun 3_ you have, Grandmother." 
+And then she said, "What big {plural noun 3} you have, Grandmother." 
 
 But the wolf said nothing. He had just died of indigestion from eating Grandmother.
