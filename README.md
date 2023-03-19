@@ -9,6 +9,10 @@
   - TBD
 - Java added "modules" after this course was made. The course needs a lecture on modules and instructions on adding "maze.jar" and "vehicles.jar".
 
+### Modules
+
+When you create a new JavaProject, Eclipse will use "module" features by default. We look at modules later in the course, but for now be sure the "Create module-info.java file" checkbox is NOT CHECKED.
+
 ## Module 1
 - [01 Introduction](Topics/Introduction)
 - [02 Eclipse](Topics/Eclise)
