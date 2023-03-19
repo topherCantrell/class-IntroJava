@@ -2,6 +2,7 @@
 
 ## Errata
 
+- Maze.jar -- ability to see when you've exited (exception?)
 - Remove references to UAH VM.
 - Course needs overhaul to modern versions in the lectures (screenshots, instructions, and new topics):
   - TBD
