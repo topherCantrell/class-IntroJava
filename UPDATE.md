@@ -1,0 +1,226 @@
+Make sure to talk about "String[] args" ane "String... args" being the same
+
+Why is it so wordy to print? shows the modularness "System" and "out" and method. Other ways to simplify
+it if you are doing a lot of printing. Maybe printing to console not as common outside of a classroom.
+
+https://ondro.inginea.eu/index.php/new-features-in-java-versions-since-java-8/
+
+- Record type "record Point(int x, int y) {}" 17
+- Static members in inner classes 16
+- Pattern matching for instanceof 16
+- Text blocks 15
+- new string methods 15, 12, 11
+- switch expressions 14
+- CompactNumberFormat class 12
+- var type allowed in Lambda params
+- var type allowed for local variables 10
+
+## General
+- Make sure all extra-info links are still good. Fix as needed.
+- More demonstration videos
+- Avoid making references to versions. It is easier to update the video than the audio.
+
+## Module 1
+
+- [03,04 Routines](Topics/Routines)
+  - 1: Overview
+  - 2: More Info
+  - 3: Instructions
+  - 4: Routines (Methods, Functions)
+  - 5: Routines: parameters
+  - 6: Routines: return
+  - 7: Routines: Other keyword attributes
+  - 8: Calling Routines
+  - 9: Class
+  - 10: Class Variables
+  - 11: Local Variables
+  - 12: Passing Parameters
+  - 13: Return Values
+  - 14: Expressions
+  - 15: Overloading
+  - 16: Your Turn
+  - Examples:
+    - MacDonald Song
+    - Headache Song
+    - Factorial
+- [05 Primitives](Topics/Primitives)
+  - 1: Overview
+  - 2: More Info
+  - 3: Memory
+  - 4: Built-ins (Primitives) `Remove Java8 but keep functions`
+  - 5: Constants `Remove Java7 and "new to Java7"`
+  - 6: Numeric Casts
+  - 7: Basic Math Operations
+  - 8-11: Bitwise Math
+  - 12: Shortcuts
+  - 13: Pre and Post Increment
+  - 14: Math Functions
+  - 15: Your Turn
+- [06 Conditionals](Topics/Conditionals)
+  - 1: Overview
+  - 2: More Info
+  - 3: The Compare Operators
+  - 4: Logic Operations
+  - 5: Flow Control
+  - 6: Forward Jump: if/else
+  - 7: Spacing Doesn't Matter
+  - 8: Use Braces
+  - 9-10: Nested if/else
+  - 11: Ternary Operator
+  - 12-14: switch 
+  - 15: switch `strings and new features take out Java7`
+  - 16: Variable scope
+  - 17: Shortcircuit in Expressions
+  - 18: Your Turn
+- [07,08 Loops](Topics/Loops)
+  - 1: Overview
+  - 2: More Info
+  - 3-7: The while Loop
+  - 8: The do Loop
+  - 9: While vs Do
+  - 10-11: break and continue
+  - 12: for loops
+  - 13: for defaults
+  - 14: multiple for parts
+  - 15: Your Turn
+  - Examples:
+    - Factorials
+    - Relativity
+    - Shifting
+    - ASCII
+    - isUpperCase
+    - even/odd
+    - do-while-false
+    - nested loops
+    - print even numbers
+- Quiz 1
+- [Ex1: HiLo and Solution](Topics/Exercise1_HiLo)
+  - Helper functions for getInteger and getRandom `check better way for getInteger`
+
+## Module 2
+- [11 Structure](Topics/Structure)  
+    - 1: Overview
+    - 2: More Info
+    - 3-4: Grouping Primititves
+    - 5: Classes
+    - 6: Using "new"
+    - 7: Stack and Heap
+    - 8: Dot operator - "follow pointer"
+    - 9: Changing Pointers
+    - 10-16: Garbage Collection
+    - 17: Your Turn    
+- [12, 13 More Structure](Topics/Structure) 
+    - 1: Overview
+    - 2: More Info
+    - 11: Comparing Objects
+    - 12: "null: Pointers
+    - 13: Passing Pointers
+    - 14: Object Composition
+    - 15: Heap Defaults to 0
+    - 16: Complex Example
+    - 17: Your Turn
+- Examples:
+      - Points
+      - Lines
+      - Triangles
+- [14,15 Objects](Topics/Objects)
+    - 1: Overview
+    - 2: More Info
+    - 3-4: Data with Functions
+    - 5-6: Together at Last
+    - 7: Invoking Methods
+    - 8-10: OO Concept: Encapsulation
+    - 11: Permissions
+    - 20: Benefit and Cost
+    - 12-15: Constructors
+    - 16: Initialization Inline
+    - 17-18: Object Equality
+    - 18: Your Turn
+    - Examples:
+      - Revisit Point
+      - Revisit Line
+      - Revisit Triangle
+- [16,17 Arrays](Topics/Arrays)
+    - 1: Overview
+    - 2: More Info
+    - 3: Indexing
+    - 4: Arrays are Objects (heap)
+    - 5: Array Bounds
+    - 6: Inialization Lists
+    - 7-8: Arrays of Pointers
+    - 9: Arrays as Parameters
+    - 10-14: Algorithms
+    - 15: Array Tools
+    - 16-18: Multidimensional Arrays
+    - 19: In Passing
+    - 20: Your Turn
+    - Examples:
+        - Tinkering with Arrays
+        - Bubble Sort
+        - Sorting Points
+        - Multidimensional Arrays
+- Quiz 2
+- [Ex2: TicTacToe and Solution](Topics/Exercise2_TicTacToe)
+
+## Module 3
+- 20 Debugging
+    - 1: Overview
+    - 2: More Info
+    - Debugging TicTacToe `Make sure this all looks the same`
+    - 3: Your Turn
+- 21 Packages and Jars `Update for modules -- make sure the box is unchecked`
+    - 1: Overview
+    - 2: More Info
+    - 3: Packages Are Directories
+    - 4: Packages
+    - 5: Imports
+    - 6: Nested Packages
+    - 7-8: System Classes
+    - 9: Static Imports
+    - 10: Unique Package Names
+    - 11: The "CLASSPATH"
+    - 12: JAR Files `Make sure these are the same`
+    - 13-14: Eclipse and Jars `Updates for modules`
+    - 15: Your Turn
+- 22, 23 Statics and Main
+    - 1: Overview
+    - 2: More Info
+    - 3: .java and .class
+    - 4: Static Blocks
+    - 5: Static Initialization
+    - 6: Instance Initialization
+    - 7: Mains
+    - 8: In Eclipse `Check this for new version`
+    - 9: Mains Calling Mains
+    - 10: Your Turn
+    - Examples
+        - Apache String Utils `Check this for new version`
+        - Mains Tinkering
+        - JAR tool `check eclipse visual`
+- Quiz 3
+- Ex3: MazeSolver and Solution
+    - "maze.jar" `no on the desktop -- how to get it`
+- Quiz 3
+- Ex3: MazeSolver and Solution
+
+## Module 4
+- 26,27 Inheritance
+- 28,29 Interfaces
+- 30 Generics
+- 31,32,33 Collections
+- Quiz 4
+- Ex4: Vehicles and Solution
+
+## Module 5
+- 36 Exceptions
+- 37 Enumerations
+- 38,39 Strings
+- 40,41,42 Streams
+- 43 Inner and Anonymous Classes
+- Quiz 5
+- Ex5: MadLibs and Solution
+
+## Module 6
+- 46 Javadocs
+- Time and Date
+- Ex6: TicTacObject and Solution
